@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — JonForrest Willeford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+</head>
+<body>
+
+<header class="top-header">
+
+    <div class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html" id="dynamicNav">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="hero-layout compact">
+        <div class="hero-text">
+            <p class="hero-eyebrow">Get in Touch</p>
+            <h1>Let's<br>Build Something</h1>
+            <p class="intro">
+                Have a project in mind? I work with businesses that care about
+                design, performance, and long-term digital presence.
+            </p>
+            <p class="intro">
+                Fill out the form or reach out directly — I respond personally.
+            </p>
+        </div>
+
+        <div class="hero-photo-col">
+            <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic">
+            <div class="photo-ornament"></div>
+        </div>
+    </div>
+
+</header>
+
+<main>
+
+    <section class="services">
+        <div class="section-label">Inquiry</div>
+        <h2 class="section-title">Project Request</h2>
+
+        <form
+            action="https://formspree.io/f/xlgaolgg"
+            method="POST"
+            class="contact-form"
+            id="contactForm"
+        >
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+            >
+            <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+            >
+            <input
+                type="text"
+                name="subject"
+                placeholder="Project Type (e.g. New Website, Redesign, SEO)"
+            >
+            <textarea
+                name="message"
+                placeholder="Tell me about your project..."
+                rows="6"
+                required
+            ></textarea>
+
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+
+        <p class="form-success" id="formSuccess">
+            ✦ &nbsp; Message received — I'll be in touch shortly.
+        </p>
+    </section>
+
+    <blockquote class="quote">
+        <span class="quote-mark">&ldquo;</span>
+        <p>Prefer direct contact?</p>
+        <cite>
+            <a href="mailto:jonfwilleford@gmail.com">jonfwilleford@gmail.com</a>
+            &nbsp;·&nbsp;
+            <a href="tel:+19036465689">(903) 646-5689</a>
+        </cite>
+    </blockquote>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <p class="footer-name">JonForrest Willeford</p>
+        <p class="footer-tag">Web Developer &amp; Designer</p>
+        <a href="mailto:jonfwilleford@gmail.com" class="footer-email">jonfwilleford@gmail.com</a>
+        <p class="footer-copy">© 2026. All rights reserved.</p>
+    </div>
+</footer>
+<script src="js/nav.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

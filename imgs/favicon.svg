@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#292E1E"/>
+  <polyline points="2,5 2,2 5,2" fill="none" stroke="#C9A84C" stroke-width="1"/>
+  <polyline points="27,2 30,2 30,5" fill="none" stroke="#C9A84C" stroke-width="1"/>
+  <polyline points="2,27 2,30 5,30" fill="none" stroke="#C9A84C" stroke-width="1"/>
+  <polyline points="30,27 30,30 27,30" fill="none" stroke="#C9A84C" stroke-width="1"/>
+  <line x1="8" y1="25" x2="24" y2="25" stroke="#C9A84C" stroke-width="0.5"/>
+  <text x="16" y="24" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="300"
+        font-size="17"
+        fill="#F0EAD6"
+        letter-spacing="-0.5">JW</text>
+</svg>

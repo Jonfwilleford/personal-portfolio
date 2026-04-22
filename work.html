@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work — JonForrest Willeford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top-header">
+
+    <div class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html" id="dynamicNav">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="hero-layout compact">
+        <div class="hero-text">
+            <p class="hero-eyebrow">Portfolio</p>
+            <h1>Selected<br>Work</h1>
+            <p class="intro">
+                A collection of projects focused on clean design,
+                performance, and practical results.
+            </p>
+        </div>
+    </div>
+
+</header>
+
+<main>
+
+    <section id="projects" class="services">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Projects</h2>
+        <div id="projectsContainer" class="services-grid">
+            <!-- Populated by script.js -->
+        </div>
+    </section>
+
+    <blockquote class="quote">
+        <span class="quote-mark">&ldquo;</span>
+        <p>Interested in working together?</p>
+        <cite>Let's build something worth remembering.<br><br>
+            <a href="contact.html">
+                <span class="cta-btn" style="display:inline-block; margin-top: 1.2rem;">Contact Me</span>
+            </a>
+        </cite>
+    </blockquote>
+
+</main>
+
+<!-- PROJECT MODAL -->
+<div id="moreInfoModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="projectDetails"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <p class="footer-name">JonForrest Willeford</p>
+        <p class="footer-tag">Web Developer &amp; Designer</p>
+        <a href="mailto:jonfwilleford@gmail.com" class="footer-email">jonfwilleford@gmail.com</a>
+        <p class="footer-copy">© 2026. All rights reserved.</p>
+    </div>
+</footer>
+<script src="js/nav.js"></script>
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairway Collection — JonForrest Willeford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    
+</head>
+<body>
+
+<header class="top-header">
+    <div class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html" id="dynamicNav">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="hero-layout compact">
+        <div class="hero-text">
+            <p class="hero-eyebrow">Photography — Golf</p>
+            <h1>Fairway<br>Collection</h1>
+            <p class="intro">
+                Eight frames from the course — light, landscape,
+                and the quiet geometry of the game.
+            </p>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="services">
+        <a href="gallery.html" class="back-link">All Collections</a>
+
+        <div class="section-label">8 Photographs</div>
+        <h2 class="section-title">The Collection</h2>
+
+        <div class="collection-grid" id="collectionGrid">
+            <!-- built by JS -->
+        </div>
+    </section>
+
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lbClose">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lbPrev">&#8592;</button>
+
+    <div class="lightbox-img-wrap">
+        <img id="lbImg" src="" alt="">
+    </div>
+
+    <div class="lightbox-counter" id="lbCounter"></div>
+
+    <button class="lightbox-nav lightbox-next" id="lbNext">&#8594;</button>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <p class="footer-name">JonForrest Willeford</p>
+        <p class="footer-tag">Web Developer &amp; Designer</p>
+        <a href="mailto:jonfwilleford@gmail.com" class="footer-email">jonfwilleford@gmail.com</a>
+        <p class="footer-copy">© 2026. All rights reserved.</p>
+    </div>
+</footer>
+<script src="js/nav.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

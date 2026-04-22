@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Dice Roller",
+        "description": "Custom-built dice roller application with a sleek interface.",
+        "tech": ["JS", "HTML", "CSS"],
+            "github": "https://github.com/Jonfwilleford/DiceRollerApp",
+            "demo": "https://jonfwilleford.github.io/DiceRollerApp/"
+    },
+    {
+        "title": "Blog Board",
+        "description": "JavaScript app for instant messaging.",
+        "tech": ["JS", "HTML", "CSS", "Firebase"],
+        "github": "https://github.com/Jonfwilleford/RebelKik",
+        "demo": "https://jonfwilleford.github.io/RebelKik/"
+    },
+    {
+        "title": "Text Adventure",
+        "description": "A simple text adventure game.",
+        "tech": ["JS", "HTML", "CSS"],
+        "github": "https://github.com/Jonfwilleford/rat-kings-demise",
+        "demo": "https://jonfwilleford.github.io/rat-kings-demise/"
+    },
+    {
+        "title": "Random Stoic",
+        "description": "A web app that generates random stoic quotes.",
+        "tech": ["JS", "HTML", "CSS"],
+        "github": "https://github.com/Jonfwilleford/RandomStoic",
+        "demo": "https://jonfwilleford.github.io/RandomStoic/"
+    }
+]

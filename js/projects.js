@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("projectsContainer");
     if (!container) return;
 
-    fetch("/js/projects.json")
+    fetch("js/projects.json")
         .then(res => res.json())
         .then(projects => {
             projects.forEach((p, i) => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const idx = parseInt(card.dataset.index, 10);
 
-        fetch("/js/projects.json")
+        fetch("js/projects.json")
             .then(r => r.json())
             .then(projects => {
                 const p = projects[idx];

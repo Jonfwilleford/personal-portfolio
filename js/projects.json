@@ -7,11 +7,11 @@
             "demo": "https://jonfwilleford.github.io/DiceRollerApp/"
     },
     {
-        "title": "Blog Board",
-        "description": "JavaScript app for instant messaging.",
-        "tech": ["JS", "HTML", "CSS", "Firebase"],
-        "github": "https://github.com/Jonfwilleford/RebelKik",
-        "demo": "https://jonfwilleford.github.io/RebelKik/"
+        "title": "Card Shop Website",
+        "description": "E-commerce website for buying and selling trading cards.",
+        "tech": ["JS", "HTML", "CSS", "Node.js + Express"],
+        "github": "https://github.com/Jonfwilleford/mondak-hobbies",
+        "demo": "https://mondak-hobbies.vercel.app/"
     },
     {
         "title": "Text Adventure",

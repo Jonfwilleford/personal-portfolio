@@ -14,11 +14,11 @@
         "demo": "https://mondak-hobbies.vercel.app/"
     },
     {
-        "title": "Text Adventure",
-        "description": "A simple text adventure game.",
+        "title": "Construction Website Demo",
+        "description": "An elegantly composed proposal template tailored for the roofing industry.",
         "tech": ["JS", "HTML", "CSS"],
-        "github": "https://github.com/Jonfwilleford/rat-kings-demise",
-        "demo": "https://jonfwilleford.github.io/rat-kings-demise/"
+        "github": "https://github.com/Jonfwilleford/Roofing_Proposal_Template",
+        "demo": "https://jonfwilleford.github.io/Roofing_Proposal_Template/"
     },
     {
         "title": "Random Stoic",

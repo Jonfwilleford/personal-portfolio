@@ -8,7 +8,7 @@
     },
     {
         "title": "Card Shop Website",
-        "description": "E-commerce website for buying and selling trading cards.",
+        "description": "A sleekly designed sports card shop, seamlessly integrated with eBay.",
         "tech": ["JS", "HTML", "CSS", "Node.js + Express"],
         "github": "https://github.com/Jonfwilleford/mondak-hobbies",
         "demo": "https://mondak-hobbies.vercel.app/"

@@ -1,10 +1,11 @@
 [
+    
     {
-        "title": "Dice Roller",
-        "description": "Custom-built dice roller application with a sleek interface.",
+        "title": "Construction Website Demo",
+        "description": "An elegantly composed proposal template tailored for the roofing industry.",
         "tech": ["JS", "HTML", "CSS"],
-            "github": "https://github.com/Jonfwilleford/DiceRollerApp",
-            "demo": "https://jonfwilleford.github.io/DiceRollerApp/"
+        "github": "https://github.com/Jonfwilleford/Roofing_Proposal_Template",
+        "demo": "https://jonfwilleford.github.io/Roofing_Proposal_Template/"
     },
     {
         "title": "Card Shop Website",
@@ -14,17 +15,17 @@
         "demo": "https://mondak-hobbies.vercel.app/"
     },
     {
-        "title": "Construction Website Demo",
-        "description": "An elegantly composed proposal template tailored for the roofing industry.",
+        "title": "Golf Course Website Demo",
+        "description": "Where tradition meets precision — a bespoke platform for courses with a pedigree.",
         "tech": ["JS", "HTML", "CSS"],
-        "github": "https://github.com/Jonfwilleford/Roofing_Proposal_Template",
-        "demo": "https://jonfwilleford.github.io/Roofing_Proposal_Template/"
+        "github": "https://github.com/Jonfwilleford/golf-demo-site",
+        "demo": "https://jonfwilleford.github.io/golf-demo-site/"
     },
     {
-        "title": "Random Stoic",
-        "description": "A web app that generates random stoic quotes.",
+        "title": "Dice Roller",
+        "description": "Custom-built dice roller application with a sleek interface.",
         "tech": ["JS", "HTML", "CSS"],
-        "github": "https://github.com/Jonfwilleford/RandomStoic",
-        "demo": "https://jonfwilleford.github.io/RandomStoic/"
+            "github": "https://github.com/Jonfwilleford/DiceRollerApp",
+            "demo": "https://jonfwilleford.github.io/DiceRollerApp/"
     }
 ]

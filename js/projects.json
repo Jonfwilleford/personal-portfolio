@@ -29,10 +29,10 @@
             "demo": "https://jonfwilleford.github.io/moss-moon/"
     },
     {
-        "title": "Dice Roller",
-        "description": "Custom-built dice roller application with a sleek interface.",
+        "title": "Morgan & Marston LLP",
+        "description": "Morgan & Marston LLP is an attorney website built as a portfolio piece demonstrating real-world front-end development skills. The project features a two-page layout with a scrolling homepage and a dedicated contact page, built around a custom design system with a deliberate color palette, Bodoni Moda and Jost typography, and a consistent component library spanning both pages. Special attention was given to layout structure, spacing, and typographic hierarchy to achieve a refined, high-contrast aesthetic appropriate for a corporate law firm.",
         "tech": ["JS", "HTML", "CSS"],
-            "github": "https://github.com/Jonfwilleford/DiceRollerApp",
-            "demo": "https://jonfwilleford.github.io/DiceRollerApp/"
+            "github": "https://github.com/Jonfwilleford/attorney-website",
+            "demo": "https://jonfwilleford.github.io/attorney-website/"
     }
 ]

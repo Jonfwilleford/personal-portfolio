@@ -22,6 +22,13 @@
         "demo": "https://jonfwilleford.github.io/golf-demo-site/"
     },
     {
+        "title": "Moss & Moon Nail Spa",
+        "description": "A client project for a luxury nail salon, designed to reflect the sophistication of the brand. The site features a high-end visual aesthetic with careful attention to typography, color, and imagery — paired with a fully responsive layout that maintains that polished feel on mobile, tablet, and desktop alike.",
+        "tech": ["JS", "HTML", "CSS"],
+            "github": "https://github.com/Jonfwilleford/moss-moon",
+            "demo": "https://jonfwilleford.github.io/moss-moon/"
+    },
+    {
         "title": "Dice Roller",
         "description": "Custom-built dice roller application with a sleek interface.",
         "tech": ["JS", "HTML", "CSS"],

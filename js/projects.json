@@ -2,7 +2,7 @@
     
     {
         "title": "Construction Website Demo",
-        "description": "An elegantly composed proposal template tailored for the roofing industry.",
+        "description": "An elegantly composed proposal template tailored for the construction industry.",
         "tech": ["JS", "HTML", "CSS"],
         "github": "https://github.com/Jonfwilleford/construction-demo",
         "demo": "https://jonfwilleford.github.io/construction-demo/"

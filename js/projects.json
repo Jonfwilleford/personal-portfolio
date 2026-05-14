@@ -4,8 +4,8 @@
         "title": "Construction Website Demo",
         "description": "An elegantly composed proposal template tailored for the roofing industry.",
         "tech": ["JS", "HTML", "CSS"],
-        "github": "https://github.com/Jonfwilleford/Roofing_Proposal_Template",
-        "demo": "https://jonfwilleford.github.io/Roofing_Proposal_Template/"
+        "github": "https://github.com/Jonfwilleford/construction-demo",
+        "demo": "https://jonfwilleford.github.io/construction-demo/"
     },
     {
         "title": "Card Shop Website",

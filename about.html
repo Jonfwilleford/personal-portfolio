@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About — JonForrest Willeford</title>
+    <meta name="description" content="Learn about JonForrest Willeford — a web developer focused on building fast, clean, and intentional digital experiences with an emphasis on structure and clarity.">
+    <link rel="canonical" href="https://jonforrest.dev/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonforrest.dev/about.html">
+    <meta property="og:title" content="About — JonForrest Willeford">
+    <meta property="og:description" content="Web developer focused on building fast, clean, and intentional digital experiences with an emphasis on structure and clarity.">
+    <meta property="og:image" content="https://jonforrest.dev/imgs/hero_nb.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About — JonForrest Willeford">
+    <meta name="twitter:description" content="Web developer focused on building fast, clean, and intentional digital experiences with an emphasis on structure and clarity.">
+    <meta name="twitter:image" content="https://jonforrest.dev/imgs/hero_nb.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="imgs/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon.png">
 </head>
 <body>
 
@@ -40,7 +54,10 @@
         </div>
 
         <div class="hero-photo-col">
-            <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic">
+            <picture>
+                <source srcset="imgs/hero_nb.webp" type="image/webp">
+                <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic" width="500" height="500" loading="lazy">
+            </picture>
             <div class="photo-ornament"></div>
         </div>
     </div>
@@ -92,7 +109,7 @@
         <p class="footer-copy">© 2026. All rights reserved.</p>
     </div>
 </footer>
-<script src="js/nav.js"></script>
-<script src="js/main.js"></script>
+<script src="js/nav.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact — JonForrest Willeford</title>
+    <meta name="description" content="Get in touch with JonForrest Willeford to discuss your web design, development, or SEO project. I respond personally to every inquiry.">
+    <link rel="canonical" href="https://jonforrest.dev/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonforrest.dev/contact.html">
+    <meta property="og:title" content="Contact — JonForrest Willeford">
+    <meta property="og:description" content="Get in touch to discuss your web design, development, or SEO project. I respond personally to every inquiry.">
+    <meta property="og:image" content="https://jonforrest.dev/imgs/hero_nb.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact — JonForrest Willeford">
+    <meta name="twitter:description" content="Get in touch to discuss your web design, development, or SEO project. I respond personally to every inquiry.">
+    <meta name="twitter:image" content="https://jonforrest.dev/imgs/hero_nb.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="imgs/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon.png">
 </head>
 <body>
 
@@ -38,7 +52,10 @@
         </div>
 
         <div class="hero-photo-col">
-            <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic">
+            <picture>
+                <source srcset="imgs/hero_nb.webp" type="image/webp">
+                <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic" width="500" height="500" loading="lazy">
+            </picture>
             <div class="photo-ornament"></div>
         </div>
     </div>
@@ -57,24 +74,32 @@
             class="contact-form"
             id="contactForm"
         >
+            <label for="contactName" class="sr-only">Your Name</label>
             <input
+                id="contactName"
                 type="text"
                 name="name"
                 placeholder="Your Name"
                 required
             >
+            <label for="contactEmail" class="sr-only">Your Email</label>
             <input
+                id="contactEmail"
                 type="email"
                 name="email"
                 placeholder="Your Email"
                 required
             >
+            <label for="contactSubject" class="sr-only">Project Type</label>
             <input
+                id="contactSubject"
                 type="text"
                 name="subject"
                 placeholder="Project Type (e.g. New Website, Redesign, SEO)"
             >
+            <label for="contactMessage" class="sr-only">Message</label>
             <textarea
+                id="contactMessage"
                 name="message"
                 placeholder="Tell me about your project..."
                 rows="6"
@@ -109,8 +134,8 @@
         <p class="footer-copy">© 2026. All rights reserved.</p>
     </div>
 </footer>
-<script src="js/nav.js"></script>
-<script src="js/main.js"></script>
-<script src="js/contact.js"></script>
+<script src="js/nav.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/contact.js" defer></script>
 </body>
 </html>

@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fairway Collection — JonForrest Willeford</title>
+    <meta name="description" content="The Fairway Collection — eight golf course photographs by JonForrest Willeford capturing light, landscape, and the quiet geometry of the game.">
+    <link rel="canonical" href="https://jonforrest.dev/fairway-collection.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonforrest.dev/fairway-collection.html">
+    <meta property="og:title" content="Fairway Collection — JonForrest Willeford">
+    <meta property="og:description" content="Eight golf course photographs capturing light, landscape, and the quiet geometry of the game.">
+    <meta property="og:image" content="https://jonforrest.dev/imgs/hero_nb.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fairway Collection — JonForrest Willeford">
+    <meta name="twitter:description" content="Eight golf course photographs capturing light, landscape, and the quiet geometry of the game.">
+    <meta name="twitter:image" content="https://jonforrest.dev/imgs/hero_nb.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
-    
+    <link rel="icon" type="image/svg+xml" href="imgs/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon.png">
+
 </head>
 <body>
 
@@ -51,8 +65,8 @@
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox">
-    <button class="lightbox-close" id="lbClose">&times;</button>
-    <button class="lightbox-nav lightbox-prev" id="lbPrev">&#8592;</button>
+    <button class="lightbox-close" id="lbClose" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lbPrev" aria-label="Previous photo">&#8592;</button>
 
     <div class="lightbox-img-wrap">
         <img id="lbImg" src="" alt="">
@@ -60,7 +74,7 @@
 
     <div class="lightbox-counter" id="lbCounter"></div>
 
-    <button class="lightbox-nav lightbox-next" id="lbNext">&#8594;</button>
+    <button class="lightbox-nav lightbox-next" id="lbNext" aria-label="Next photo">&#8594;</button>
 </div>
 
 <footer>
@@ -71,7 +85,7 @@
         <p class="footer-copy">© 2026. All rights reserved.</p>
     </div>
 </footer>
-<script src="js/nav.js"></script>
-<script src="js/main.js"></script>
+<script src="js/nav.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

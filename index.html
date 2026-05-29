@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JonForrest Willeford — Web Developer</title>
+    <meta name="description" content="JonForrest Willeford is a professional web developer and designer offering bespoke web design, development, SEO optimization, photography, and CMS integration.">
+    <link rel="canonical" href="https://jonforrest.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonforrest.dev/">
+    <meta property="og:title" content="JonForrest Willeford — Web Developer">
+    <meta property="og:description" content="Professional web developer offering bespoke design, development, SEO, and photography to help your business stand out.">
+    <meta property="og:image" content="https://jonforrest.dev/imgs/hero_nb.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JonForrest Willeford — Web Developer">
+    <meta name="twitter:description" content="Professional web developer offering bespoke design, development, SEO, and photography to help your business stand out.">
+    <meta name="twitter:image" content="https://jonforrest.dev/imgs/hero_nb.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="imgs/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon.png">
     <script defer src="/_vercel/insights/script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "JonForrest Willeford",
+      "url": "https://jonforrest.dev",
+      "email": "jonfwilleford@gmail.com",
+      "jobTitle": "Web Developer",
+      "description": "Professional web developer and designer specializing in bespoke web design, development, SEO optimization, and photography.",
+      "image": "https://jonforrest.dev/imgs/hero_nb.png"
+    }
+    </script>
 </head>
 <body>
 
@@ -36,7 +60,10 @@
         </div>
 
         <div class="hero-photo-col">
-            <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic">
+            <picture>
+                <source srcset="imgs/hero_nb.webp" type="image/webp">
+                <img src="imgs/hero_nb.png" alt="JonForrest Willeford" class="profile-pic" width="500" height="500" fetchpriority="high">
+            </picture>
             <div class="photo-ornament"></div>
         </div>
     </div>
@@ -94,7 +121,7 @@
         <p class="footer-copy">© 2026. All rights reserved.</p>
     </div>
 </footer>
-<script src="js/nav.js"></script>
-<script src="js/main.js"></script>
+<script src="js/nav.js" defer></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

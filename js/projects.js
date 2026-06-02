@@ -9,6 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
             projects.forEach((p, i) => {
                 container.appendChild(createCard(p, i));
             });
+
+            const cards = container.querySelectorAll('.service-card');
+            cards.forEach((card, i) => {
+                card.style.transitionDelay = `${i * 0.12}s`;
+            });
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                        cardObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            cards.forEach(card => cardObserver.observe(card));
         });
 
     const modal   = document.getElementById("moreInfoModal");

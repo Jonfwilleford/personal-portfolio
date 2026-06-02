@@ -1,21 +1,20 @@
 [
-    
     {
-        "title": "Construction Website Demo",
-        "description": "An elegantly composed proposal template tailored for the construction industry.",
-        "tech": ["JS", "HTML", "CSS"],
-        "github": "https://github.com/Jonfwilleford/construction-demo",
-        "demo": "https://jonfwilleford.github.io/construction-demo/"
-    },
-    {
-        "title": "Card Shop Website",
+        "title": "Mondak Hobbies",
         "description": "A sleekly designed sports card shop, seamlessly integrated with eBay.",
         "tech": ["JS", "HTML", "CSS", "Node.js + Express"],
         "github": "https://github.com/Jonfwilleford/mondak-hobbies",
         "demo": "https://mondak-hobbies.vercel.app/"
     },
     {
-        "title": "Golf Course Website Demo",
+        "title": "J32 Construction",
+        "description": "An elegantly composed proposal template tailored for the construction industry.",
+        "tech": ["JS", "HTML", "CSS"],
+        "github": "https://github.com/Jonfwilleford/construction-demo",
+        "demo": "https://jonfwilleford.github.io/construction-demo/"
+    },
+    {
+        "title": "Henderson Country Club",
         "description": "Where tradition meets precision — a bespoke platform for courses with a pedigree.",
         "tech": ["JS", "HTML", "CSS"],
         "github": "https://github.com/Jonfwilleford/golf-demo-site",
@@ -34,5 +33,12 @@
         "tech": ["JS", "HTML", "CSS"],
             "github": "https://github.com/Jonfwilleford/attorney-website",
             "demo": "https://jonfwilleford.github.io/attorney-website/"
+    },
+    {
+        "title": "Gulf Coast Seafood",
+        "description": "A client project for a seafood restaurant, designed to highlight the freshness and quality of the offerings. The site features a vibrant visual aesthetic with careful attention to typography, color, and imagery — paired with a fully responsive layout that maintains that polished feel on mobile, tablet, and desktop alike.",
+        "tech": ["JS", "HTML", "CSS"],
+        "github": "https://github.com/Jonfwilleford/SeafoodMarket",
+        "demo": "https://jonfwilleford.github.io/SeafoodMarket/"
     }
 ]
